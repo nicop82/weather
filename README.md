@@ -25,7 +25,7 @@ Proyecto Maven/JAVA que expone servicios Rest utilizando una base de datos en me
 ### Servicios expuestos
 - /init: Inicializa el sistema. Se debe correr primero. Crea los planetas, calcula los climas de todos los días a 10 años y guarda toda la información en la base de datos. Devuelve el resultado del pronóstico calculado. 
 
-URL: http://localhost:8080/init
+URL: [http://localhost:8080/init](http://localhost:8080/init)
 
 Ejemplo:
 	Total sequía: 40
@@ -37,14 +37,14 @@ Ejemplo:
 
 - /clima: Recibe un día dentro de los 10 años como parámetro y devuelve la condición cliḿática. 
 
-URL: http://localhost:8080/clima?dia=566
+URL: [http://localhost:8080/clima?dia=566](http://localhost:8080/clima?dia=566)
 
 Ejemplo:
 	{"dia":566,"clima":"normal","status":"ok"}
 
 - /planetas: 
 
-URL: http://localhost:8080/planetas
+URL:[http://localhost:8080/planetas](http://localhost:8080/planetas)
 
 Ejemplo:
 	[
@@ -60,13 +60,13 @@ Para agregar el projecto se debe agregar con un proyecto Maven existente.
 El proyecto utiliza Spring boot para correr de forma local.
 1. cd weather
 2. $./mvnw spring-boot:run
-Debug: ./mvnw spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
+Para Debug: $./mvnw spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
 
 ### Generar war para correr en server
 1. cd weather
 2. $./mvnw clean package
 
-### Tests. 
+### Tests
 Los tests se encuentran en com.mercadolibre.weather.ClimaServiceTest. Los mismos son tests de integración que se encargan de levantar los servicios a testear, llamar a dichos servicios e inspeccionar la respuesta. 
 Para correr los test:
 - 1. cd weather
