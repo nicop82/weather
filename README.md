@@ -58,19 +58,19 @@ Para agregar el projecto se debe agregar con un proyecto Maven existente.
 
 ### Correr en ambiente de desarrollo
 El proyecto utiliza Spring boot para correr de forma local.
-1. cd weather
-2. $./mvnw spring-boot:run
-Para Debug: $./mvnw spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
+- $ cd weather
+- $./mvnw spring-boot:run
+- Para Debug: $./mvnw spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5005"
 
 ### Generar war para correr en server
-1. cd weather
-2. $./mvnw clean package
+- cd weather
+- $./mvnw clean package
 
 ### Tests
 Los tests se encuentran en com.mercadolibre.weather.ClimaServiceTest. Los mismos son tests de integración que se encargan de levantar los servicios a testear, llamar a dichos servicios e inspeccionar la respuesta. 
 Para correr los test:
-- 1. cd weather
-- 2. $./mvnw test
+- $ cd weather
+- $./mvnw test
 
 ### Pendiente:
 Subir proyecto a Cloud Foundry
