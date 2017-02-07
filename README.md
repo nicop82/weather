@@ -1,5 +1,5 @@
-# Proyecto de cambio climático para Mercado Libre
-El proyecto consiste en un proyecto Maven que ofrece servicios REST. Dichos servicios se conectan con una base de datos HSQLCB en memoria donde guarda los datos de los días. 
+# Proyecto de pronóstico climático para Mercado Libre
+Proyecto Maven que ofrece servicios REST. Dichos servicios se conectan con una base de datos HSQLDB en memoria donde guarda los datos de los días. 
 
 # Tecnologías
 - Java 1.8
@@ -12,14 +12,14 @@ El proyecto consiste en un proyecto Maven que ofrece servicios REST. Dichos serv
 
 # Estructura de carpetas
 - README.md
-- Arquitectura.pdf: descripción de arquitectura/tecnologa del proyecto general del proyecto. 
+- Arquitectura.pdf: descripción de arquitectura/tecnología general del proyecto.
 - Code/weather: código del proyecto.
 
 ## Proyecto Wheater
-Proyecto Maven/JAVA que expone servicios Rest utilizando una base de datos en memoria para facilitar su desarrollo y testeo. 
+Proyecto Maven/JAVA que expone servicios Rest utilizando una base de datos en memoria. 
 
 ### Servicios expuestos
-- /init: Inicializa el sistema. Se debe correr primero. Crea los planetas, calcula los climas de todos los días a 10 años y guarda toda la información en la base de datos. Devuelve el resultado del pronóstico calculado. 
+- /init: Se debe correr primero ya que inicializa el sistema. Crea los planetas, calcula los climas de todos los días a 10 años y guarda toda la información en la base de datos. Devuelve el resultado del pronóstico calculado. 
 
 URL: [http://localhost:8080/init](http://localhost:8080/init)
 
@@ -50,7 +50,7 @@ Ejemplo:
 	]
 
 ### Para agregar a IDE
-Para agregar el projecto se debe agregar con un proyecto Maven existente.
+Se debe agregar con un proyecto Maven existente.
 
 ### Correr en ambiente de desarrollo
 El proyecto utiliza Spring boot para correr de forma local.
