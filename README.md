@@ -17,7 +17,7 @@ El proyecto consiste en un proyecto Maven que ofrece servicios REST. Dichos serv
 - README.md
 - Arquitectura.jpg: descripción de arquitectura general del proyecto. 
 - video.mp4: Video que explica arquitectura y forma de correr el proyecto y tests. 
-- Code/weather: código servicio rest con una base de datos en memoria que ofrece los siguientes servicios:
+- Code/weather: código del proyecto.
 
 ## Proyecto Wheater
 Proyecto Maven/JAVA que expone servicios Rest utilizando una base de datos en memoria para facilitar su desarrollo y testeo. 
