@@ -1,6 +1,3 @@
-# Video (Ver primero)
-Para comenzar: Ver video que explica cómo correr la aplicación en "video.mp4".
-
 # Proyecto de cambio climático para Mercado Libre
 El proyecto consiste en un proyecto Maven que ofrece servicios REST. Dichos servicios se conectan con una base de datos HSQLCB en memoria donde guarda los datos de los días. 
 
