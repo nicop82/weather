@@ -12,8 +12,7 @@ El proyecto consiste en un proyecto Maven que ofrece servicios REST. Dichos serv
 
 # Estructura de carpetas
 - README.md
-- Arquitectura.jpg: descripción de arquitectura general del proyecto. 
-- video.mp4: Video que explica arquitectura y forma de correr el proyecto y tests. 
+- Arquitectura.pdf: descripción de arquitectura/tecnologa del proyecto general del proyecto. 
 - Code/weather: código del proyecto.
 
 ## Proyecto Wheater
@@ -68,6 +67,3 @@ Los tests se encuentran en com.mercadolibre.weather.ClimaServiceTest. Los mismos
 Para correr los test:
 - $ cd weather
 - $./mvnw test
-
-### Pendiente:
-Subir proyecto a Cloud Foundry
